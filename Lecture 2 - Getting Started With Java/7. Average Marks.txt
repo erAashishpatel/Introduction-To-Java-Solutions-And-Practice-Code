@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner (System.in);
+        //Geting Name input from user
+        String str=s.next();
+        //Geting Marks input from user of three test separated by single space
+        int m1=s.nextInt();
+        int m2=s.nextInt();
+        int m3=s.nextInt();
+        // Find Average of Input marks
+        int avg=(m1+m2+m3)/3;
+        
+        System.out.println(str);
+        System.out.println(avg);
+        
+	}
+
+}
